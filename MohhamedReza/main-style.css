@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.w-1140{
+    width: 1140px;
+    margin: 0 auto;
+}
+header{
+    padding: 100px 0 125px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div h1{
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+    width: 475px;
+}
+header div p{
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 509px;
+    margin: 7px 0 54px 0;
+}
+header div ul{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+header div button.send{
+    border-radius: 10px;
+    background: #FF2950;
+    width: 151px;
+    height: 55px;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+header div button.download{
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+}
+/*--------------------web-developer-----------------------*/
+.developer{
+    border-radius: 35px;
+    background: #FF7315;
+    height: 519px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 32px;
+}
+.developer div h2:nth-child(1){
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+}
+.developer div h2:nth-child(2){
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin: 16px 0 19px 0;
+}
+.developer div p:nth-child(3){
+    color: #F9F9F9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin-bottom: 19px;
+}
+.developer div p:nth-child(4){
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+    width: 570px;
+}
+/*----------- advantages --------------------*/
+.advantages h2{
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 100px 0 125px 0;
+}
+.advantages-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 125px;
+}
+.advantages-cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.advantages-cards div div{
+    width: 98px;
+    height: 98px;
+    background: rgba(34, 34, 34, 0.10);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advantages-cards div h4{
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin: 51px 0 12px 0;
+}
+.advantages-cards div p{
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 240px;
+}
+/*--------------- portfolio ------------------------*/
+.portfolio{
+    padding-bottom: 125px;
+}
+.portfolio h2{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    margin-bottom: 64px;
+}
+.portfolio div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+/*------------------ feedback ----------------------*/
+.feedback{
+    height: 643px;
+    background: #FF7315;
+}
+.feedback h2{
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    padding: 48px 0 111px 0;
+}
+.feedback div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+}
+.feedback div p{
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+    padding: 24px 55px;
+}
+/*--------------------- price -----------------------*/
+.price h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    padding: 125px 0 64px 0;
+    text-align: center;
+}
+.price-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 67px;
+    padding-bottom: 100px;
+}
+.price-cards div{
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0px 20px 40px 0px rgba(255, 115, 21, 0.10);
+    width: 335px;
+    height: 500px;
+}
+.price-cards div h4{
+    border-radius: 15px 15px 0px 0px;
+    background: #FF9B70;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    color: #F9F9F9;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 29.664px */
+    text-transform: capitalize;
+    width: 335px;
+    height: 66px;
+    text-align: center;
+    padding: 18px 0;
+}
+.price-cards div p{
+    color: #2B2B2B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 39.552px */
+    text-transform: capitalize;
+    text-align: center;
+    padding: 36px 0 29px 0;
+}
+.price-cards div p span{
+    color: rgba(43, 43, 43, 0.5);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+.price-cards div ul{
+    padding-inline-start: 48px;
+}
+.checkmark li{
+    color: #222;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.checkmark li::before{
+    content: '';
+    display: inline-block;
+    width: 24.885px;
+    height: 24px;
+    background: url("img/check.svg");
+    margin-right: 16px;
+    margin-bottom: -6px;
+}
+.cross li{
+    color: rgba(34, 34, 34, 0.5);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+.cross li::before{
+    content: '';
+    display: inline-block;
+    width: 24.885px;
+    height: 24px;
+    background: url("img/close.svg");
+    opacity: 0.5;
+    margin-right: 16px;
+    margin-bottom: -6px;
+}
+/*--------------- email-me -------------------*/
+.email-me{
+    width: 1110px;
+    height: 224px;
+    border-radius: 25px;
+    background: #FF7315;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 333px;
+}
+.email-me h2{
+    color: #F9F9F9;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 172.222% */
+    width: 343px;
+}
+.email-me button{
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 0.927px 1.924px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 259px;
+    height: 70px;
+}
+/*----------------- blog --------------------*/
+.blog h2{
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+    margin: 125px 0 48px 0;
+}
+.blog-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 125px;
+}
+.blog-cards div{
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+    padding: 14px;
+}
+.blog-cards div img{
+    border-radius: 15px;
+}
+.blog-cards div h4{
+    color:  #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 19.776px */
+    text-transform: capitalize;
+    margin: 24px 0 12px 0;
+}
+.blog-cards div p{
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+}
+/*----------------- footer ------------------------*/
+footer{
+    height: 170px;
+    background: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
